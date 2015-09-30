@@ -8,7 +8,20 @@ import java.util.Scanner;
  * @version 1.0
  *
  */
+/*
+*
+find total count of possible number for given digit (as input), whether condition is next and previous digit of current digit
+should be +-1.
+number will not have leading zeroes.
 
+example
+if input is "1" then output should be "10" 
+as: 0,1,2,3,4,5,6,7,8,9
+if input is "2" then output should be "17" 
+as: 10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98
+
+
+*/
 public class NextDigit {
 	
 	//it will count total number of possible combinations
